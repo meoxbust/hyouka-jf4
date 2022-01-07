@@ -1,0 +1,540 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+height: 50px;
+background-image: linear-gradient( 
+117deg,#5a4be7,#c86dd7 102%);
+position: fixed;
+top:0px;
+left: 0px;
+right: 0px;
+z-index: 10;
+}
+/*common*/
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.row::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+.col{
+    float: left;
+    padding: 0 8px;
+}
+.col-full{
+    width: 100%;
+}
+.col-half{
+    width: 50%;
+}
+.col-third-per{
+    width: calc(100% /3);
+}
+.text-center{
+    text-align: center !important;
+}
+.mt-8{
+    margin-top: 8px !important;
+}
+.mt-16{
+    margin-top: 16px !important;
+}
+/*main*/
+#nav .nav-icon{
+    font-size: 12px;
+}
+#nav li:hover .subnav{
+    display: block;
+    min-width:calc(148.462px);
+}
+#nav li{
+    position: relative;
+    
+}
+#nav, .subnav{
+    list-style: none;
+}
+#nav > li{
+    display: inline-block;
+}
+#nav li a{
+    text-decoration:none;
+    color: #fff;
+    line-height: 50px;
+    padding: 0 24px;
+    display: block;
+    
+}
+#nav > li:hover > a{
+    background-color: blanchedalmond;
+    color: black;
+}
+#nav >li >a{
+    text-transform: uppercase;
+}
+#nav .subnav{
+    display: none;
+    top:100%;
+    position: absolute;
+    background-color: cadetblue;
+    box-shadow:0 0 10px slategray;
+}
+#nav .subnav a{
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+    line-height: 30px;
+}
+#nav .subnav li:hover a{
+    background-color:salmon;
+}
+#header .menu-mobile-btn
+{
+    display: none;
+}
+#header .menuplay,
+#header .searchplay{
+    line-height: 50px;
+    
+}
+#header .menu-mobile-btn,
+#header .search-btn{
+    float: right; 
+    color:#fff;
+    padding: 0 30px;
+}  
+#header .menu-mobile-btn:hover,
+#header .search-btn:hover{
+    cursor: pointer;
+    background-color: blanchedalmond;
+    color: black;
+}
+#nav{
+    display: inline-block;
+}
+#slider{
+    margin-top: 50px;
+   /* padding-top: 81%;*/
+    /*background-image: url('/assets/img/favicon/02a58e0050ff23f3d1539b44a51f9e11.jpg');*/
+    /*background-image: url('/assets/img/favicon/੭ヾ\ ⁺\ ₊\ Nekonii\ ฅ.jfif');*/
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#slider .pic1{
+    width: 50%;
+}
+#slider .pic2{
+    width: 50%;
+    float: right;
+    display: block;
+}
+#slider .text-content{
+position: absolute;
+font-weight: 500;
+width: 100%;
+top: 52%;
+text-align: center;
+}
+#slider .text-heading{
+font-size: 35px;
+right: 50%;
+top: 50%;
+}
+#slider .text-decription{
+font-size: 20px;
+color: #fff;
+}
+#content .content-section{
+    width: 70%;
+    padding: 64px 16px 112px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#content .section-heading{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+#content .section-sub-heading{
+    font-size: 15px;
+    text-align: center;
+    margin: 15px;
+    font-style: italic;
+    opacity: 0.6;
+}
+#content .about-text{
+    font-size: medium;
+    text-align: justify;
+    line-height: 1.4;
+}
+#content .character-item .img-cha{
+    width: 70%;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+#content .character-item{
+    float: left;
+    width: 50%;
+    padding-bottom: 16px;
+}
+#content .character-list{
+    margin-top: 34px; ;
+    overflow: hidden;
+}
+#content .cha-name{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: -12px;
+}
+#content .booksection{
+    background-color: #dad8d8;
+    /*color: #fff;*/
+}
+.book-list{
+    background-color: #fff;
+    margin-top: 16px;
+    list-style: none;
+}
+.book-list li{
+    font-size: 15px;
+    padding: 11px 20px;
+    border-bottom: 1px solid black;
+}
+.book-list .Limit{
+    background-color: red;
+    color: yellow;
+    padding: 4px 5px;
+    margin-left: 26px;
+    border-radius: 5%;
+}
+.book-list .quantity{
+    float: right;
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    margin-top: -3px;
+}
+/*Books-info*/
+.books-info-list{
+    margin-top: 32px;
+   /* margin-left: -8px;
+    margin-right: -8px;*/
+    padding-bottom: 32px;
+
+} 
+ .info-item{
+    /*float: left;*/
+    width: calc(100% /3);
+   /* padding: 0 8px;*/
+}
+.hyouka-novel{
+    width: 100%;
+    height: 330px;
+    display: block;
+}
+.hyouka-novel:hover{
+    opacity: 0.8;
+}
+.info-body{
+    background-color: ivory;
+    padding: 8px;
+    font-size: 16px;
+    height: 315px;
+}
+.name-nov{
+    font-size: 20px;
+    font-weight: bold 600;
+    margin: 16px 0;
+    height: 24px;
+    line-height: 24px; ;
+}
+.realease-day{
+    margin: 35px 0 20px 0;
+    height: 56px;
+    text-align: justify;
+    color: #757575;
+    
+}
+.more-info{
+    margin: 8px 0;
+    height: 99px;
+}
+.buy-books{
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    padding: 12px 12px;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+}
+.buy-books:hover{
+    background-color :rgb(243, 204, 75);
+    color: #000;
+}
+.the-doll{
+    width: 100%;
+    height: 330px;
+    display: block;
+
+}
+.the-doll:hover{
+    opacity: 0.8;
+}
+.The-app{
+    width: 100%;
+    height: 330px;
+    display: block;
+}
+.The-app:hover{
+    opacity: 0.8;
+
+}
+.modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0 , 0, 0 , 0.4);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.modal.open {
+    display: flex;
+}
+.modal-container{
+    background-color: #fff;
+    width: 60%;
+    min-height: 320px;
+    position: relative;
+    animation: animodal ease 0.3s;
+}
+header.modal-header {
+    background-color:#C7D8EB;
+    color: #000;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    /*background-image: url(https://www.premierleague.com/resources/prod/f4af34b-3761/i/bg-elements/heading-bg-desktop.svg);*/
+}
+.modal-icon{
+     margin-right: 15px;
+}
+.modal-close {
+    position: absolute;
+    color: #000;
+    padding: 16px;
+    right: 0;
+    cursor: pointer;
+}
+.modal-close:hover{
+    background-color: aliceblue;
+    color: #000;
+    opacity: 0.6;
+}
+.modal-body {
+    margin: 16px 0 0 16px;
+}
+label.modal-label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.modal-input {
+    width: 95%;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 9px;
+    margin-bottom: 24px;
+}
+button#pay {
+    display: block;
+    margin-bottom: 12px;
+}
+button#pay {
+    background-color: #B5DBD5;
+    color: #000;
+    border: none;
+    width: 95%;
+    cursor: pointer;
+    padding: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+button#pay:hover{
+    background-color: #C7D8EB;
+    color: black;
+    opacity: 0.6;
+    font-weight: 700;
+    border: 1px solid blueviolet;
+}
+.modal-footer {
+    text-align: right;
+    padding: 12px;
+}
+.modal-footer a{
+    color:#2196F3;
+}
+@keyframes animodal{
+    from{
+        opacity: 0;
+        transform: translateY(-150px);
+        background-color: snow;
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/*Contact form*/
+.contact-body
+{
+    margin-top: 40px;
+}
+.contact-info
+{
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 600;
+}
+.contact-info i[class*="ti-"]
+{
+    width: 30px;
+    display: inline-block;
+}
+.contact-info a
+{
+    color: #3469f4;
+    opacity: 0.8;
+}
+.contact-info a:hover
+{
+    opacity: 1;
+}
+.form-control
+{
+    padding: 11px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+.contact-submit-form
+{
+    margin-right: 8px;
+    float: right;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 11px 17px;
+    appearance: none;
+    -webkit-appearance: none;
+}
+.contact-submit-form:hover
+{
+    cursor: pointer;
+    background-color: #B5DBD5;
+    color: #000;
+}
+.final-img-section img
+{
+    width: 100%;
+}
+/*Footer*/
+#footer
+{
+    padding: 64px 16px;
+    text-align: center;
+}
+#footer .social-list
+{
+    font-size: 20px;
+}
+#footer .social-list a
+{
+    text-decoration: none;
+    color: rgba(0 , 0, 0 , 0.6);
+}
+#footer .copy-right a:hover,
+#footer .social-list a :hover
+{
+    color: rgba(0 , 0, 0 , 1);
+}
+#footer .copy-right
+{
+    margin-top: 15px;
+    text-decoration: none;
+    color: rgba(0 , 0, 0 , 0.6);
+}
+#footer .copy-right a
+{
+    text-decoration: none;
+    color: rgba(0 , 0, 0 , 0.6);
+    font-weight: 700;
+}
+@media (max-width:63.9375em) and (min-width:46.25em)
+{
+    .contact-info
+    {
+        line-height: 2.4;
+    }
+    .character-list
+    {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+    #content .character-item
+    {
+        width: 100%;
+    }
+    .books-info-list
+    {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+    .col-third-per
+    {
+        width: 50%;
+        margin-bottom: 12px;
+    }
+    .info-body
+    {
+        font-size: 14px;
+    }
+    .modal{
+        top: -240px;
+    }
+    .cha-name
+    {
+        margin-bottom: -12px;
+    }
+    #content .character-item .img-cha
+    {
+        width: 280px;
+    }
+}

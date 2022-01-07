@@ -1,0 +1,118 @@
+@media (max-width:46.1875em)
+{
+    #main
+    {
+        overflow: hidden;
+    }
+    .s-full-width,.s-col-full
+    {
+        width: 100% !important;
+    }
+    .s-mt-8
+    {
+        margin-top: 8px !important;
+    }
+    #nav > li 
+    {
+        display: block;
+    }
+    #header .search-btn
+    {
+        display: none;
+    }
+    #header .menu-mobile-btn
+    {
+        display: block;
+    }
+    #nav {
+        display: block;
+    }
+    .menuplay 
+    {
+        position: absolute;
+        top: 0;
+    }
+    .text-heading
+    {
+        display: none;
+    }
+    #nav > li:first-child
+    {
+        display: inline-block;
+    }
+    #header
+    {
+        overflow: hidden;
+    }
+    #nav .subnav
+    {
+        position: initial;
+    }
+    #content .character-item
+    {
+        width: 100%;
+    }
+    #content .character-item .img-cha 
+    {
+        width: 75%;
+    }
+    .book-list .Limit
+    {
+        margin-left: 0;
+        display: inline-block;
+    }
+    .modal-container 
+    {
+        width: 90%;
+    }
+    #content .content-section
+    {
+        width: 95%;
+    }
+    .temp
+    {
+        margin-top: 28px;
+    }
+    .contact-submit-form
+    {
+        margin-right: 0;
+    }
+    .contact-info
+    {
+        line-height: 2;
+    }
+}
+@media (min-width: 75em)
+{
+    #content .character-item
+    {
+        width: 25%;
+    }
+    #content .character-item .img-cha
+    {
+        width: 85%;
+    }
+}
+@media (max-width:63.9375em)
+{
+    .buy-books
+    {
+        padding: 15px 16px;
+    }
+    .form-control
+    {
+        padding: 15px;
+    }
+    #footer .social-list 
+    {
+        font-size: 30px;
+    }
+    #footer .social-list a
+    {
+        margin: 0 8px;
+    }
+    #footer .copy-right a {
+        padding: 13px 0;
+        display: inline-block;
+    }
+}
